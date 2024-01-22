@@ -50,34 +50,37 @@ p {
 
 body {
     width: 100%;
+    background-color: #eabf9e;
 }
 
-#header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 80px;
-    background: #ffffff;
+#header {  
+  height: 125px;
+    
+    background: #ffe2cc;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
     z-index: 999;
-    position: sticky;
     /*fixed header*/
     left: 0;
     top: 0;
 }
 
+
+
 #navbar {
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+    position: absolute;
+     top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
 
 #mobile {
     display: none;
     align-items: center;
-
 }
 
 #navbar li {
@@ -115,7 +118,7 @@ body {
 }
 
 #rolex {
-    background-image: url('../img/R.jpg');
+    background-image: url('../img/main.jpg');
     height: 90vh;
     width: 100%;
     background-size: cover;
