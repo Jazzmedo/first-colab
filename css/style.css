@@ -148,13 +148,13 @@ body {
 }
 
 .Product1 .pro {
-    width: 23%;
+    border: 1px solid #000;
+    width: 18%;
     padding: 10px 12px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    min-width: 250px;
+    min-width: 200px;
     border-radius: 25px;
-    border: 1px solid #cce7d0;
     margin: 15px 0;
     position: relative;
     transition: 0.2 s ease;
@@ -186,7 +186,7 @@ body {
 .Product1 .pro .des h5 {
     padding-top: 7px;
     color: #1a1a1a;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .Product1 .pro .des i {
@@ -208,7 +208,7 @@ body {
     border-radius: 50px;
     background-color: #ececec;
     color: #000000;
-    border-color: 1px solid #fbecec;
+    border: 1px solid #000;
     position: absolute;
     bottom: 20px;
     right: 10px;
