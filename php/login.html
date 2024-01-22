@@ -12,29 +12,7 @@
 
 <body>
   <div class="container">
-    <?php
-    include("config.php");
-    if (isset($_POST['submit'])) {
-      $email = mysqli_real_escape_string($con, $_POST['email']);
-      $password = mysqli_real_escape_string($con, $_POST['password']);
-
-      $result = mysqli_query($con, "SELECT * FROM users WHERE email='$email' AND passwordd='$password' ") or die("Select Error");
-      $row = mysqli_fetch_assoc($result);
-
-      if (is_array($row) && !empty($row)) {
-        $_SESSION['valid'] = $row['email'];
-        $_SESSION['username'] = $row['username'];
-        $_SESSION['id'] = $row['id'];
-      } else {
-        header("Location:wrong.php");
-      }
-      if (isset($_SESSION['valid'])) {
-        header("Location: index.php");
-      }
-    } else {
-
-
-      ?>
+    
       <div class="img">
         <img src="../img/logo.png" />
       </div>
@@ -64,11 +42,11 @@
             <input type="submit" class="btn" name='submit' value="Login" />
           </div>
           <div class='links'>
-            <a href="signup.php">Don't Have Account? Sign Up Now</a>
+            <a href="signup.html">Don't Have Account? Sign Up Now</a>
           </div>
         </form>
       </div>
-    <?php } ?>
+    
   </div>
   <script type="text/javascript" src="../js/main.js"></script>
 </body>
