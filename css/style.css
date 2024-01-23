@@ -576,7 +576,7 @@ footer .copyright {
     #rolex #dazzle {
         justify-content: center;
         padding-left: 15%;
-        font-size: 170%;
+        font-size: 150%;
         font-weight: 600;
         color: #ffe2cc;
         margin: 20% 0px 40px 30px;
@@ -584,23 +584,25 @@ footer .copyright {
 
     #rolex {
         background-image: url('../img/main.jpg');
-        height: 90%;
+        background-position: center; /* You can adjust this value to control the direction */
+        background-size: cover; /* Optional: Adjust the background size to cover the entire element */
         width: 100%;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
         position: relative;
     }
+    
 
     #rolex #shopnow {
         text-decoration: none;
         background-color: #ffffff;
-        width: 55%;
-        height: 10%;
+        width: 60%;
+        padding-left: 10%;
         text-align: center;
         display: flex;
         font-weight: 600;
-        font-size: 90%;
+        font-size: 100%;
         color: #642b00;
         margin: 0px 0px 20px 60px;
 
