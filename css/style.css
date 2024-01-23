@@ -175,6 +175,7 @@ body {
 }
 
 .Product1 .pro {
+    text-decoration: none;
     border: 1px solid #000;
     background-color: #ffdabd;
     width: 18%;
@@ -553,10 +554,8 @@ footer .copyright {
 
 @media (max-width:400px) {
     #header {
-        height: 80%;
         background: #ffe2cc;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
-        z-index: 999;
         /*fixed header*/
         left: 0;
         top: 0;
@@ -582,7 +581,7 @@ footer .copyright {
     #rolex #dazzle {
         justify-content: center;
         padding-left: 15%;
-        font-size: 170%;
+        font-size: 150%;
         font-weight: 600;
         color: #ffe2cc;
         margin: 20% 0px 40px 30px;
@@ -590,26 +589,31 @@ footer .copyright {
 
     #rolex {
         background-image: url('../img/main.jpg');
-        height: 90%;
+        background-position: center; /* You can adjust this value to control the direction */
+        background-size: cover; /* Optional: Adjust the background size to cover the entire element */
         width: 100%;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
         position: relative;
     }
+    
 
     #rolex #shopnow {
         text-decoration: none;
         background-color: #ffffff;
-        width: 55%;
-        height: 10%;
+        width: 60%;
+        padding-left: 10%;
         text-align: center;
         display: flex;
         font-weight: 600;
-        font-size: 90%;
+        font-size: 100%;
         color: #642b00;
         margin: 0px 0px 20px 60px;
 
+    }
+    #categories {
+    font-size: 200%;
     }
     footer .logo {
         margin: 0% 0% 5% 21%;
@@ -645,7 +649,6 @@ footer .copyright {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
         align-items: center;
-        justify-content: space-between;
         flex-wrap: wrap;
         padding: 5% 0% 0% 5%;
         gap: 2;
@@ -654,14 +657,27 @@ footer .copyright {
         justify-content: center;
         align-items: center;
         width: 45%;
+
     }
     .section-p1 {
         padding: 40px 00px;
     }
     .section-p2 {
         padding: 40px 80px;
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
     }
+    .ankletc{
+        border: 1px solid #000;
+        background-color: #ffdabd;
+        width: 45%;
+        padding: 10px 12px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+        border-radius: 10px;
+        margin: 15px 0;
+        position: relative;
+        transition: 0.2 s ease;
+        min-width: 10%;
+    }
+    
 }
