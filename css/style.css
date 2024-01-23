@@ -652,7 +652,9 @@ footer .copyright {
         flex-wrap: wrap;
         padding: 5% 0% 0% 5%;
         gap: 2;
-    }.Product1 .lastcon{
+    }
+   
+    .Product1 .lastcon{
         grid-column: 1/-1;
         justify-content: center;
         align-items: center;
@@ -666,18 +668,6 @@ footer .copyright {
         padding: 40px 80px;
         justify-content: space-between;
     }
-    .ankletc{
-        border: 1px solid #000;
-        background-color: #ffdabd;
-        width: 45%;
-        padding: 10px 12px;
-        cursor: pointer;
-        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-        border-radius: 10px;
-        margin: 15px 0;
-        position: relative;
-        transition: 0.2 s ease;
-        min-width: 10%;
-    }
+  
     
 }
