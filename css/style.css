@@ -53,9 +53,9 @@ body {
     background-color: #eabf9e;
 }
 
-#header {  
-  height: 125px;
-    
+#header {
+    height: 125px;
+
     background: #ffe2cc;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -72,7 +72,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-     top: 7%;
+    top: 7%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -129,8 +129,8 @@ body {
     align-items: flex-start;
     justify-content: center;
 }
-#rolex #shopnow
-{
+
+#rolex #shopnow {
     text-decoration: none;
     background-color: #ffffff;
     width: 12%;
@@ -141,15 +141,15 @@ body {
     font-weight: 600;
     font-size: larger;
     color: #642b00;
-    margin:0px 0px 20px 60px; 
-    
+    margin: 0px 0px 20px 60px;
+
 }
-#rolex #dazzle
-{
+
+#rolex #dazzle {
     font-size: 40px;
     font-weight: 600;
     color: #ffe2cc;
-    margin:20% 0px 40px 30px; 
+    margin: 20% 0px 40px 30px;
 }
 
 .Product1 {
@@ -544,40 +544,44 @@ footer .copyright {
     font-weight: 600;
     color: #000;
 }
+
 @media (max-width:400px) {
-    #header {  
+    #header {
         height: 80%;
-          background: #ffe2cc;
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
-          z-index: 999;
-          /*fixed header*/
-          left: 0;
-          top: 0;
-      }
-      #navbar li a {
+        background: #ffe2cc;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
+        z-index: 999;
+        /*fixed header*/
+        left: 0;
+        top: 0;
+    }
+
+    #navbar li a {
         text-decoration: none;
         font-size: 90%;
         font-weight: 600;
         color: black;
         transition: 0.3s ease;
         /* border-bottom: 3px solid transparent; */
-    
-    
+    }
+    #navbar {
+        padding:5% 0% 0% 20%;
     }
     #navbar li {
         padding-left: 10%;
         list-style: none;
         position: relative;
     }
-    #rolex #dazzle
-{
-    justify-content: center;
-    padding-left: 15%;
-    font-size: 170%;
-    font-weight: 600;
-    color: #ffe2cc;
-    margin:20% 0px 40px 30px; 
-}
+
+    #rolex #dazzle {
+        justify-content: center;
+        padding-left: 15%;
+        font-size: 170%;
+        font-weight: 600;
+        color: #ffe2cc;
+        margin: 20% 0px 40px 30px;
+    }
+
     #rolex {
         background-image: url('../img/main.jpg');
         height: 90%;
@@ -587,18 +591,18 @@ footer .copyright {
         justify-content: center;
         position: relative;
     }
-    #rolex #shopnow
-{
-    text-decoration: none;
-    background-color: #ffffff;
-    width: 55%;
-    height: 10%;
-    text-align: center;
-    display: flex;
-    font-weight: 600;
-    font-size: 90%;
-    color: #642b00;
-    margin:0px 0px 20px 60px; 
-   
-}
+
+    #rolex #shopnow {
+        text-decoration: none;
+        background-color: #ffffff;
+        width: 55%;
+        height: 10%;
+        text-align: center;
+        display: flex;
+        font-weight: 600;
+        font-size: 90%;
+        color: #642b00;
+        margin: 0px 0px 20px 60px;
+
+    }
 }
