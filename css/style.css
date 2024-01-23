@@ -245,12 +245,7 @@ body {
     background-size: cover;
 }
 
-#newsletter button {
-    background-color: #ffffff;
-    color: #000000;
-    white-space: nowrap;
-    text-align: center;
-}
+
 
 #newsletter .form {
     display: flex;
@@ -265,12 +260,7 @@ footer {
     justify-content: space-between;
 }
 
-footer .col {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
+
 
 footer .logo {
     margin-bottom: 30px;
@@ -305,19 +295,17 @@ footer .follow i {
     width: 25px;
 }
 
-footer .install .row img {
-    border: 1px solid #088178;
-    border-radius: 6px;
-}
 
-footer .install img {
-    margin: 10px 0 15px 0;
-}
+
+
 
 footer .follow i:hover,
 footer a:hover {
     color: #30d0c2;
 
+}
+footer .icons{
+    
 }
 
 footer .copyright {
