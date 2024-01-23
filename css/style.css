@@ -641,10 +641,8 @@ footer .copyright {
         margin: 15px 0;
         position: relative;
         transition: 0.2 s ease;
-        min-width: 10%;
-        align-self: center;
-        align-items: center;
-        align-content: center;
+        display: inline;
+        min-width: 0%;
     }
     .Product1 .pro_container {
         display: grid;
@@ -652,11 +650,13 @@ footer .copyright {
         grid-template-rows: auto auto auto;
         align-items: center;
         flex-wrap: wrap;
-        margin: 20px 0% 0% 5%;
+        padding: 5% 0% 0% 5%;
         gap: 2;
+    }.Product1 .lastcon{
+        grid-column: 1/-1;
         justify-content: center;
-        align-content: center;
-        align-self: center;
+        align-items: center;
+        width: 45%;
 
     }
     .section-p1 {
