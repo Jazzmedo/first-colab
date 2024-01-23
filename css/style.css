@@ -129,7 +129,29 @@ body {
     align-items: flex-start;
     justify-content: center;
 }
-
+#rolex #shopnow
+{
+    text-decoration: none;
+    background-color: #ffffff;
+    width: 12%;
+    height: 8%;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding-top: 1.15%;
+    font-weight: 600;
+    font-size: larger;
+    color: #642b00;
+    margin:0px 0px 20px 60px; 
+    
+}
+#rolex #dazzle
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffe2cc;
+    margin:20% 0px 40px 30px; 
+}
 
 .Product1 {
     text-align: center;
