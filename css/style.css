@@ -167,6 +167,12 @@ body {
 .Product1 .pro_container .all {
     text-decoration: none;
 }
+.section-p2 {
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .Product1 .pro {
     border: 1px solid #000;
