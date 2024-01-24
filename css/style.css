@@ -391,9 +391,11 @@ footer .copyright {
     display: flex;
 }
 
+
 #about-head img {
-    width: 50%;
-    height: auto;
+    width: 100%;
+    height: 510px;
+    object-fit: cover;
 }
 
 #about-head div {
@@ -407,7 +409,7 @@ footer .copyright {
 }
 
 #contact-details .details {
-    width: 40%;
+    width: 50%;
 }
 
 #contact-details .details span,
@@ -416,7 +418,7 @@ footer .copyright {
 
 #contact-details .details h3 {
     font-size: 16px;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
 
 }
 
@@ -656,6 +658,26 @@ footer .copyright {
     .section-p2 {
         margin: 17% 80px -50% 80px;
         justify-content: space-between;
+    }
+    #text #text2 {
+        padding: 10px;
+        padding-left: 80px;
+        font-size: 40px;
+    }
+    #text3 {
+      margin: 3%;
+    }
+    #about-head {
+       
+        flex-direction: column-reverse;
+        padding: 0% 0%;
+        margin: 0% 0% 0% 0%;
+    }
+   
+    #about-head img {
+        width: 100%;
+        height: 510px;
+        object-fit: cover;
     }
     #contact-details {
         display: flex;
