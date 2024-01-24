@@ -54,8 +54,7 @@ body {
 }
 
 #header {
-    height: 125px;
-
+    height: 110px;
     background: #ffe2cc;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -63,7 +62,9 @@ body {
     left: 0;
     top: 0;
 }
-
+#header .logoa {
+    padding-left: 1.5%;
+}
 
 
 #navbar {
@@ -576,7 +577,7 @@ footer .copyright {
         /* border-bottom: 3px solid transparent; */
     }
     #navbar {
-        padding:5% 0% 0% 20%;
+        padding:2.7% 0% 0% 23%;;
     }
     #navbar li {
         padding-left: 10%;
@@ -622,7 +623,7 @@ footer .copyright {
     font-size: 200%;
     }
     footer .logo {
-        margin: -15% 0% 15% 21%;;
+        margin: -15% 0% 20% 21%;;
     }
     footer p {
         font-size: 13px;
