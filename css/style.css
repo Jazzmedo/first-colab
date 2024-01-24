@@ -518,7 +518,7 @@ footer .copyright {
 
     #rolex #dazzle {
         justify-content: center;
-        padding-left: 20%;
+        padding-left: 10%;
         font-size: 190%;
         font-weight: 600;
         color: #ffe2cc;
@@ -534,13 +534,15 @@ footer .copyright {
         align-items: flex-start;
         justify-content: center;
         position: relative;
+        
+        
     }
     
 
     #rolex #shopnow {
         text-decoration: none;
         background-color: #ffffff;
-        width: 70%;
+        width: 66%;
         height: 8%;
         text-align: center;
         border-radius: 20px;
@@ -548,10 +550,12 @@ footer .copyright {
         font-weight: 600;
         font-size: 110%;
         color: #642b00;
-        margin: 0px 0px 20px 60px;
+        margin: 0px 0px 20px 32px;
         }
+
     #categories {
     font-size: 200%;
+
     }
     footer .logo {
         margin: -15% 0% 20% 21%;;
