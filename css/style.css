@@ -311,6 +311,30 @@ footer a:hover {
     color: #000000;
 
 }
+#whatsapp {
+    padding: 60px ;
+}
+#whatsapp a{
+    background-image: url('../img/whatsapp.png');
+    background-color: #22c571;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 30px 15px 20px  ;
+    padding: 20%;
+        bottom: 30%;
+        right: 15px;
+        border-radius: 50px;
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+        animation: effect 5s infinite ease-in;
+}
 
 
 footer .copyright {
@@ -468,7 +492,7 @@ footer .copyright {
     color: #000;
 }
 
-@media (max-width:400px) {
+@media (max-width:560px) {
     #header {
         background: #ffe2cc;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
@@ -540,6 +564,9 @@ footer .copyright {
     }
     footer .follow {
         margin-top: 18%;
+    }
+    #whatsapp {
+        padding-left: 30%;
     }
     footer .copyright {
         width: 100%;
