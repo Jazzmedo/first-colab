@@ -169,7 +169,8 @@ body {
     text-decoration: none;
 }
 .section-p2 {
-    padding: 40px 80px;
+    margin: 40px 80px -130px 80px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -266,6 +267,18 @@ body {
 
 
 
+.norm {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    text-align: center;
+}
 
 
 footer {
@@ -308,7 +321,7 @@ footer .follow i {
 
 footer .follow i:hover,
 footer a:hover {
-    color: #000000;
+    color: #fd882f;
 
 }
 #whatsapp {
@@ -390,7 +403,7 @@ footer .copyright {
 #contact-details {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 #contact-details .details {
@@ -427,8 +440,14 @@ footer .copyright {
 }
 
 #contact-details .banner {
-    width: 30%;
-    height: 400px;
+    width: auto;
+    height: auto;
+    margin-left: 16%;
+}
+#contact-details .banner img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
 }
 
 #form-details {
@@ -436,11 +455,10 @@ footer .copyright {
     justify-content: space-between;
     margin: 30px;
     padding: 40px;
-    border: 1px solid #e1e1e1;
 }
 
 #form-details form {
-    width: 65%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -454,7 +472,9 @@ footer .copyright {
     padding: 12px 15px;
     outline: none;
     margin-bottom: 26px;
-    border: 1px solid #e1e1e1;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #ffddc4;
 }
 
 #form-details form button {
@@ -634,9 +654,35 @@ footer .copyright {
         padding: 40px 00px;
     }
     .section-p2 {
-        padding: 40px 80px;
+        margin: 17% 80px -50% 80px;
         justify-content: space-between;
     }
-  
-    
+    #contact-details {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 0% 0%;
+        margin: 0% 0% 0% 0%;
+        /* justify-content: space-between; */
+    }  
+    #form-details p {
+        text-align: center;
+    }  
+    #contact-details .banner {
+        width: auto;
+        height: auto;
+        margin-left: 0%;
+        margin: 0% 0% 10% 0%;
+    }
+    #contact-details .banner img {
+        width: 100%;
+        height: 510px;
+        object-fit: cover;
+    }
+    #contact-details .details {
+        width: 80%;
+    }
+    .cntr{
+        text-align: center;
+    }
 }
