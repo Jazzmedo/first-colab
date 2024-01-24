@@ -134,13 +134,13 @@ body {
 #rolex #shopnow {
     text-decoration: none;
     background-color: #ffffff;
-    width: 22vh;
-    height: 9vh;
+    width: 29vb;
+    height: 8.5vh;
     text-align: center;
     border-radius: 20px;
-    padding: 1.6%;
+    padding: 2vh;
     font-weight: 600;
-    font-size: larger;
+    font-size: 3vh;
     color: #642b00;
     margin: 0px 0px 20px 60px;
 
@@ -243,7 +243,7 @@ body {
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: #ececec;
+    background-color: #ffffff;
     color: #000000;
     border: 1px solid #000;
     position: absolute;
@@ -575,13 +575,13 @@ footer .copyright {
         margin: 0px 0px 20px 32px; */
         text-decoration: none;
         background-color: #ffffff;
-        width: 66vw; /* Use viewport width */
+        width: 35vw; /* Use viewport width */
         height: 8vh; /* Use viewport height */
         text-align: center;
         border-radius: 20px;
         padding-top: 2.4vh;
         font-weight: 600;
-        font-size: 110%;
+        font-size: 3.5vw;
         color: #642b00;
         }
 
