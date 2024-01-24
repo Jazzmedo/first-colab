@@ -351,69 +351,6 @@ footer .copyright {
     color: #fff;
 }
 
-#b1 {
-    padding: 150px 150px 0 150px;
-}
-
-#b1 .b1-box {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    padding-bottom: 90px;
-}
-
-#b1 .b1-img {
-    width: 50%;
-    margin-right: 40px;
-}
-
-#b1 img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-#b1 .b1-details {
-    width: 50%;
-}
-
-#b1 .b1-details a {
-    text-decoration: none;
-    font-size: 11px;
-    color: #000;
-    font-weight: 700;
-    position: relative;
-}
-
-#b1 .b1-details a::after {
-    content: "";
-    position: absolute;
-    background-color: #000;
-    width: 50px;
-    height: 2px;
-    top: 4px;
-    right: -60px;
-}
-
-#b1 .b1-details a:hover {
-    color: #088178;
-}
-
-#b1 .b1-details a:hover::after {
-    background-color: #088178;
-}
-
-#b1 .b1-box h1 {
-    left: 0;
-    top: -40px;
-    font-size: 70px;
-    font-weight: 700;
-    color: #c9cbce;
-    position: absolute;
-    z-index: -9;
-}
-
 #about-head {
     align-items: center;
     display: flex;
