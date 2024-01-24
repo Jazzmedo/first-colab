@@ -468,7 +468,7 @@ footer .copyright {
     color: #000;
 }
 
-@media (max-width:400px) {
+@media (max-width:560px) {
     #header {
         background: #ffe2cc;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
