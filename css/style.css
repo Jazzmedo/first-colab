@@ -169,7 +169,8 @@ body {
     text-decoration: none;
 }
 .section-p2 {
-    padding: 40px 80px;
+    margin: 40px 80px -130px 80px;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -436,7 +437,6 @@ footer .copyright {
     justify-content: space-between;
     margin: 30px;
     padding: 40px;
-    border: 1px solid #e1e1e1;
 }
 
 #form-details form {
