@@ -41,7 +41,7 @@ p {
 }
 
 .section-p1 {
-    padding: 40px 80px;
+    padding: 40px 40px;
 }
 
 .section-m1 {
@@ -62,6 +62,7 @@ body {
     left: 0;
     top: 0;
 }
+
 #header .logoa {
     padding-left: 1.5%;
 }
@@ -76,9 +77,10 @@ body {
     top: 7%;
     left: 50%;
     transform: translateX(-50%);
-    text-align: center;
 }
-
+.logoimg{
+    width:100px;
+}
 #mobile {
     display: none;
     align-items: center;
@@ -103,7 +105,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #000000;
+    color: #644d0e;
 
 }
 
@@ -168,6 +170,7 @@ body {
 .Product1 .pro_container .all {
     text-decoration: none;
 }
+
 .section-p2 {
     margin: 40px 80px -130px 80px;
 
@@ -196,6 +199,7 @@ body {
     transition: 0.2s all ease-in-out;
     transform: scale(1.1);
 }
+
 .Product1 .pro:not(:hover) {
     transition: 0.2s all ease-in-out;
     transform: scale(1);
@@ -231,13 +235,6 @@ body {
     color: rgb(243, 181, 25);
 }
 
-.Product1 .pro .des h4 {
-    padding-top: 7px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #088178;
-}
-
 .Product1 .pro .cart2 {
     width: 40px;
     height: 40px;
@@ -250,6 +247,7 @@ body {
     bottom: 10px;
     right: 10px;
 }
+
 #newsletter {
     display: flex;
     flex-wrap: wrap;
@@ -288,8 +286,9 @@ footer {
 }
 
 
-footer .logo {
+.logo {
     margin-bottom: 30px;
+    width: 17vw;
 }
 
 footer h4 {
@@ -324,27 +323,25 @@ footer a:hover {
     color: #fd882f;
 
 }
-#whatsapp {
-    padding: 60px ;
-}
-#whatsapp a{
+
+#whatsapp a {
     position: fixed;
-        bottom: 15px;
-        right: 15px;
-        z-index: 99;
-        background-color: #27be5f;
-        border-radius: 50px;
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: 600;
-        width: 160px;
-        height: 50px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
-        animation: effect 5s infinite ease-in;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    background-color: #27be5f;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+    animation: effect 5s infinite ease-in;
 }
 
 
@@ -446,6 +443,7 @@ footer .copyright {
     height: auto;
     margin-left: 16%;
 }
+
 #contact-details .banner img {
     width: 100%;
     height: auto;
@@ -514,6 +512,7 @@ footer .copyright {
 
 @media (max-width:430px) {
     #header {
+        height: 100%;
         background: #ffe2cc;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
         /*fixed header*/
@@ -523,172 +522,203 @@ footer .copyright {
 
     #navbar li a {
         text-decoration: none;
-        font-size: 90%;
+        font-size: 3.5vw;
         font-weight: 600;
-        color: black;
         transition: 0.3s ease;
-        /* border-bottom: 3px solid transparent; */
-    }
-    #navbar {
-        padding:2.7% 0% 0% 23%;;
-    }
-    #navbar li {
-        padding-left: 10%;
-        list-style: none;
-        position: relative;
     }
 
+    #navbar {
+        padding: 0 0 0 0;
+        position: absolute;
+        top: 4.5vh;
+        left: 62vw;
+        transform: translateX(-50%);
+    }
+    .logoimg{
+        height:10vh;
+        width: 22vw;
+    }
+    #navbar li {
+        padding: 0vh 5vw 0vh 5vw;
+    }
+    #newsletter{
+        margin-bottom: 0px;
+    }
     #rolex #dazzle {
         justify-content: center;
-        padding-left: 10%;
-        font-size: 190%;
+        font-size: 8.5vw;
         font-weight: 600;
         color: #ffe2cc;
-        margin: 10% 5%;
+        margin: 0% 0vw 6vh 0vw;
+        text-align: center;
     }
 
     #rolex {
         background-image: url('../img/main.jpg');
-        background-position: center; /* You can adjust this value to control the direction */
-        background-size: cover; /* Optional: Adjust the background size to cover the entire element */
+        background-position: center;
+        background-size: cover;
         width: 100%;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: first baseline;
         justify-content: center;
         position: relative;
-        
-        
+        padding: 0vh 15vw 0vh 15vw;
+    }
+
+    .Product1 .pro .des h5 {
+        padding-top: 0.75vh;
+        font-size: 4.15vw;
     }
     
+    .Product1 .pro .des i {
+        font-size: 12px;
+        color: rgb(243, 181, 25);
+        font-size: 1vw;
+    }
+    
+    .Product1 .pro .cart2 {
+        font-size: 4vw;
+        width: 9.3vw;
+        height: 4.3vh;
+        line-height: 4vh;
+        border-radius: 100%;
+        border: 0.44vw solid #000;
+        bottom: 1vh;
+        right: 1vh;
+    }
 
     #rolex #shopnow {
-        /* text-decoration: none;
-        background-color: #ffffff;
-        width: 66%;
-        height: 8%;
-        text-align: center;
-        border-radius: 20px;
-        padding-top: 2.4vh;
-        font-weight: 600;
-        font-size: 110%;
-        color: #642b00;
-        margin: 0px 0px 20px 32px; */
         text-decoration: none;
         background-color: #ffffff;
-        width: 35vw; /* Use viewport width */
-        height: 8vh; /* Use viewport height */
+        width: 37vw;
+        height: 6.5vh;
         text-align: center;
         border-radius: 20px;
-        padding-top: 2.4vh;
+        padding-top: 1.9vh;
         font-weight: 600;
         font-size: 3.5vw;
         color: #642b00;
-        }
-
+        margin: 1vh auto 0vh auto;
+        display: block;
+    }
+    footer h4 {
+        font-size: 3.25vw;
+        padding-bottom: 2.1vh;
+    }
     #categories {
-    font-size: 200%;
+        font-size: 10vw;
+        line-height: 0px;
+        padding-bottom: 2vh;
+    }
 
+    .logo {
+        width: 79vw;
+        padding: 15%;
+        margin-bottom: 0vh;
     }
-    footer .logo {
-        margin: -15% 0% 20% 21%;;
-    }
+
     footer p {
-        font-size: 13px;
-        margin: 0 0 6% 0;
+        font-size: 3.01vw;
+        margin: 0 0 0.85vh 0;
     }
     footer .follow {
-        margin-top: 18%;
+        margin-top: 3.225vh;
     }
-    #whatsapp {
-        padding-left: 30%;
-        
-    }
-    #whatsapp a{
+    #whatsapp a {
         position: fixed;
-            bottom: 15px;
-            right: 15px;
-            z-index: 99;
-            background-color: #27be5f;
-            border-radius: 50px;
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 600;
-            width: 110px;
-            height: 40px;
-            font-size: 13px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
-            animation: effect 5s infinite ease-in;
+        bottom: 2vh;
+        right: 4vw;
+        z-index: 99;
+        background-color: #27be5f;
+        border-radius: 50px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 600;
+        width: 22vw;
+        height: 4.5vh;
+        font-size: 2.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 25px -6px rgba(0, 0, 0, 1);
+        animation: effect 5s infinite ease-in;
     }
-    
+
     footer .copyright {
         width: 100%;
         text-align: center;
-        margin-top: 12%;
+        margin-top: 4vh;
     }
+
     .Product1 .pro {
-        border: 1px solid #000;
+        border: 0.2lvw solid #000;
         background-color: #ffdabd;
         width: 90%;
-        padding: 10px 12px;
-        cursor: pointer;
-        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-        border-radius: 10px;
-        margin: 15px 0;
-        position: relative;
-        transition: 0.2 s ease;
-        display: inline;
+        padding: 1vh 3vw;
+        border-radius: 3.5vw;
+        margin: 1.8vh 0;
         min-width: 0%;
     }
-    
+    .Product1 .pro img {
+    border-radius: 1vw;
+    }
+    .Product1 .pro .des {
+    padding: 0.9vh 0vw;
+    }
     .Product1 .pro_container {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         align-items: center;
-        flex-wrap: wrap;
-        padding: 5% 0% 0% 5%;
-        gap: 2;
+        padding: 5vh 0% 0% 5vw;
     }
-    .Product1 .pro_container .lastcon{
+
+    .Product1 .pro_container .lastcon {
         margin: 4.46% 0% 0% 25%;
     }
-    .Product1 .lastcon{
+
+    .Product1 .lastcon {
         grid-column: 1/-1;
         justify-content: center;
         align-items: center;
         width: 45%;
 
     }
+
     .section-p1 {
-        padding: 40px 00px;
+        padding: 5vh 00px;
+    }
+    .section-m1{
+        margin:4vh 0vw;
     }
     .section-p2 {
-        margin: 17% 80px -50% 80px;
+        margin: 0% 10vw -20vh 10vw;
         justify-content: space-between;
     }
+
     #text #text2 {
         padding: 10px;
         padding-left: 80px;
         font-size: 40px;
     }
+
     #text3 {
-      margin: 3%;
+        margin: 3%;
     }
+
     #about-head {
-       
+
         flex-direction: column-reverse;
         padding: 0% 0%;
         margin: 0% 0% 0% 0%;
     }
-   
+
     #about-head img {
         width: 100%;
         height: 510px;
         object-fit: cover;
     }
+
     #contact-details {
         display: flex;
         align-items: center;
@@ -696,25 +726,33 @@ footer .copyright {
         padding: 0% 0%;
         margin: 0% 0% 0% 0%;
         /* justify-content: space-between; */
-    }  
+    }
+
     #form-details p {
         text-align: center;
-    }  
+    }
+
     #contact-details .banner {
         width: auto;
         height: auto;
         margin-left: 0%;
         margin: 0% 0% 10% 0%;
     }
+    footer .follow i {
+        width: 5.9vw;
+        font-size: 5vw;
+    }
     #contact-details .banner img {
         width: 100%;
         height: 510px;
         object-fit: cover;
     }
+
     #contact-details .details {
         width: 80%;
     }
-    .cntr{
+
+    .cntr {
         text-align: center;
     }
 }
