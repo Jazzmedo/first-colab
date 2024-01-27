@@ -611,10 +611,11 @@ footer .copyright {
         font-size: 3.25vw;
         padding-bottom: 2.1vh;
     }
-    #categories {
+    .categories {
         font-size: 10vw;
         line-height: 0px;
         padding-bottom: 2vh;
+        text-align: center;
     }
 
     .logo {
@@ -710,6 +711,7 @@ footer .copyright {
 
     #text3 {
         margin: 3%;
+        font-size: 3.01vw;
     }
 
     #about-head {
@@ -737,7 +739,9 @@ footer .copyright {
     #form-details p {
         text-align: center;
     }
-
+    #contact-details .details li p {
+        font-size: 3.25vw;
+    }
     #contact-details .banner {
         width: auto;
         height: auto;
@@ -757,7 +761,12 @@ footer .copyright {
     #contact-details .details {
         width: 80%;
     }
-
+    #text .categories {
+        margin: 6vh 0px 3vh 0px;
+    }
+    #about-head div{
+        padding : 0;
+    }
     .cntr {
         text-align: center;
     }
