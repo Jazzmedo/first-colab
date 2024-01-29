@@ -510,7 +510,7 @@ footer .copyright {
     color: #000;
 }
 
-@media (max-aspect-ratio:4.5/5) {
+@media (max-aspect-ratio:5/5) {
     #header {
         max-height: 105px;
         height: 100%;
@@ -735,9 +735,30 @@ footer .copyright {
         margin: 0% 0% 0% 0%;
         /* justify-content: space-between; */
     }
-
+    #form-details {
+        margin: 4.85vh 6.1vw;
+        padding: 5.5vh 3vw;
+    }
+    #form-details form {
+        padding: 0px;
+    }
     #form-details p {
         text-align: center;
+        font-size: 3.6vw;
+    }
+    #form-details h2{
+        font-size: 7.5vw;
+        text-align: center;
+    }
+    #form-details form input,
+    #form-details form textarea {
+        padding: 1.93vh 3.25vw;
+        margin-bottom: 4.11vh;
+        border-radius: 4px;
+    }
+    .norm {
+        font-size: 3.35vw;
+        padding: 2.4vh 7.1vw;
     }
     #contact-details .details li p {
         font-size: 3.25vw;
@@ -766,8 +787,5 @@ footer .copyright {
     }
     #about-head div{
         padding : 0;
-    }
-    .cntr {
-        text-align: center;
     }
 }
