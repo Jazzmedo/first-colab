@@ -827,4 +827,45 @@ footer .copyright {
     .navigation a{
         font-size: 4.1vw;
     }
+    /* Start of necklaceDesc page */
+    .product-container {
+        max-width: 900px;
+        max-height: 900px; 
+        margin: 30px auto;
+        background-color: #eabf9e;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10%;
+    
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.checkout-button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.checkout-button:hover {
+    background-color: #45a049;
+}
+/* end of the NecklaceDesc page */
 }
