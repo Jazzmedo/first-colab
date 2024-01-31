@@ -529,7 +529,7 @@ footer .copyright {
     color: #000;
 }
 
-@media screen and (max-width: 400px) and (max-aspect-ratio:5/5) {
+@media(max-aspect-ratio:5/5) {
     #header {
         max-height: 105px;
         height: 100%;
