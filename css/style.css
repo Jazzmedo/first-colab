@@ -741,7 +741,7 @@ footer .copyright {
         margin:4vh 0vw;
     }
     .section-p2 {
-        margin: 0% 10vw -9vh 10vw;
+        margin: 0% 10vw 6vh 10vw;
         justify-content: space-between;
     }
 
@@ -850,7 +850,4 @@ footer .copyright {
     .navigation a{
         font-size: 4.1vw;
     }
-    /* Start of necklaceDesc page */
-    
-/* end of the NecklaceDesc page */
 }
