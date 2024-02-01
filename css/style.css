@@ -57,7 +57,7 @@ body {
 }
 
 #header {
-    height: 110px;
+    height: 100px;
     background: #ffe2cc;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -77,12 +77,12 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 6%;
+    top: clamp(0%,7%,42px);
     left: 50%;
     transform: translateX(-50%);
 }
 .logoimg{
-    width:100px;
+    width:90px;
 }
 #mobile {
     display: none;
@@ -393,7 +393,7 @@ footer a:hover {
     font-weight: 600;
     width: 160px;
     height: 50px;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
