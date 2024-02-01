@@ -6,7 +6,10 @@
     box-sizing: border-box;
     font-family: "Spartan", sans-serif;
 }
-
+@font-face {
+    font-family: Janna;
+    src: url(Janna\ LT\ Regular.ttf) format("truetype");
+}
 html {
     scroll-behavior: smooth;
 }
