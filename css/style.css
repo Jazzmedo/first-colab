@@ -6,12 +6,35 @@
     box-sizing: border-box;
     font-family: "Spartan", sans-serif;
 }
+
 @font-face {
     font-family: Janna;
     src: url(Janna\ LT\ Regular.ttf) format("truetype");
 }
+
 html {
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #eabf9e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #795800;
+    transition: 0.3s ease=ease-in-out;
+    border-radius: 2.5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #9f7300;
 }
 
 /* Global Styles */
@@ -77,13 +100,15 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: clamp(0%,7%,42px);
+    top: clamp(0%, 7%, 42px);
     left: 50%;
     transform: translateX(-50%);
 }
-.logoimg{
-    width:90px;
+
+.logoimg {
+    width: 90px;
 }
+
 #mobile {
     display: none;
     align-items: center;
@@ -150,9 +175,11 @@ body {
     margin: 0px 0px 20px 60px;
     transition: 0.3s all ease;
 }
-#rolex #shopnow:hover{
-    background-color:#e4e4e4;
+
+#rolex #shopnow:hover {
+    background-color: #e4e4e4;
 }
+
 #rolex #dazzle {
     font-size: 40px;
     font-weight: 600;
@@ -171,9 +198,11 @@ body {
     flex-wrap: wrap;
     padding-top: 20px;
 }
-.category2{
+
+.category2 {
     padding: 0px 250px;
 }
+
 .all {
     text-decoration: none;
 }
@@ -241,30 +270,35 @@ body {
     font-size: 12px;
     color: rgb(243, 181, 25);
 }
-.category6{
+
+.category6 {
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     align-items: center;
-    margin-left:124px;
+    margin-left: 124px;
 }
-.category4{
+
+.category4 {
     display: flex;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     align-items: center;
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
     color: #642b00;
     font-weight: 600;
 }
-.navigation{
+
+.navigation {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
+
 .navigation a:hover,
 .navigation a.active {
     color: #fd882f;
@@ -281,6 +315,7 @@ body {
     bottom: -4px;
     left: 20px;
 }
+
 .pro .cart2 {
     width: 40px;
     height: 40px;
@@ -293,7 +328,8 @@ body {
     bottom: 10px;
     right: 10px;
 }
-.pro .arrow{
+
+.pro .arrow {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -305,9 +341,11 @@ body {
     bottom: 10px;
     right: 10px;
 }
-#testfor{
+
+#testfor {
     padding-left: 40px;
 }
+
 #newsletter {
     display: flex;
     flex-wrap: wrap;
@@ -365,25 +403,30 @@ footer .follow {
     margin: 30px 0;
 
 }
-footer .follow a{
-    margin:0 5px ;
+
+footer .follow a {
+    margin: 0 5px;
     cursor: pointer;
     transition: 0.2s ease;
 }
-footer .follow .fb{
+
+footer .follow .fb {
     background-color: #0c56b0;
     padding-left: 16px;
     border-radius: 15px 5px 5px 15px;
 }
-footer .follow .ig{
+
+footer .follow .ig {
     background-color: #df4c90;
     border-radius: 5px 5px 5px 5px;
 }
-footer .follow .wa{
+
+footer .follow .wa {
     background-color: #31b946;
     border-radius: 5px 15px 15px 5px;
 }
-footer .developed .gh{
+
+footer .developed .gh {
     margin-left: 15px;
     width: 25px;
     height: 25px;
@@ -391,18 +434,23 @@ footer .developed .gh{
     padding: 5px 0 0 6px;
     background-color: #000000;
 }
-footer .developed .gh:hover{
+
+footer .developed .gh:hover {
     background-color: #161616;
 }
-footer .follow .fb:hover{
+
+footer .follow .fb:hover {
     background-color: #0e61c5;
 }
-footer .follow .ig:hover{
+
+footer .follow .ig:hover {
     background-color: #f0549d;
 }
-footer .follow .wa:hover{
+
+footer .follow .wa:hover {
     background-color: #37cc4d;
 }
+
 footer .follow i,
 footer .developed i {
     color: #ffffff;
@@ -425,7 +473,7 @@ footer .developed i {
     bottom: 15px;
     right: 15px;
     z-index: 99;
-    background-color: #27be5f;
+    background-color: #31b946;
     border-radius: 50px;
     color: #ffffff;
     text-decoration: none;
@@ -440,8 +488,9 @@ footer .developed i {
     animation: effect 5s infinite ease-in;
     transition: 0.3s ease;
 }
-#whatsapp a:hover{
-    background-color: #2bd86b;
+
+#whatsapp a:hover {
+    background-color: #37cc4d;
 }
 
 footer .copyright {
@@ -449,13 +498,16 @@ footer .copyright {
     width: 100%;
     text-align: center;
 }
-.developed{
+
+.developed {
     margin-top: 17.5vh;
     width: 26vw;
 }
-.developed p{
+
+.developed p {
     font-size: 14px;
 }
+
 #pro-details {
     display: flex;
     align-items: center;
@@ -463,6 +515,7 @@ footer .copyright {
     flex-wrap: wrap;
     margin-top: 20px;
 }
+
 #about-head {
     align-items: center;
     display: flex;
@@ -615,23 +668,27 @@ footer .copyright {
         left: 62vw;
         transform: translateX(-50%);
     }
-    .logoimg{
-        height:10vh;
+
+    .logoimg {
+        height: 10vh;
         width: 22vw;
         max-width: 100px;
         background-size: cover;
         max-height: 105px;
 
     }
+
     #navbar li {
         padding: 0vh 5vw 0vw 5vw;
     }
-    #newsletter{
+
+    #newsletter {
         margin-bottom: 0px;
     }
+
     #rolex #dazzle {
         justify-content: center;
-        font-size: clamp(0px,10vw,78px);
+        font-size: clamp(0px, 10vw, 78px);
         font-weight: 600;
         color: #ffe2cc;
         margin: 0% 0vw 6vh 0vw;
@@ -655,13 +712,13 @@ footer .copyright {
         padding-top: 0.75vh;
         font-size: 4.15vw;
     }
-    
+
     .pro .des i {
         font-size: 12px;
         color: rgb(243, 181, 25);
         font-size: 1vw;
     }
-    
+
     .pro .cart2 {
         font-size: 2.5vh;
         width: 4.4vh;
@@ -689,12 +746,14 @@ footer .copyright {
         margin: 1vh auto 0vh auto;
         display: block;
     }
+
     footer h4 {
         font-size: 3.25vw;
         padding-bottom: 2.1vh;
     }
+
     .categories {
-        font-size: clamp(0px,10vw,78px);
+        font-size: clamp(0px, 10vw, 78px);
         line-height: 0px;
         padding-bottom: 2vh;
         text-align: center;
@@ -710,17 +769,20 @@ footer .copyright {
         font-size: 3.01vw;
         margin: 0 0 0.85vh 0;
     }
+
     footer .follow {
         margin-top: 3.225vh;
     }
-    footer .developed .gh{
+
+    footer .developed .gh {
         margin-left: 15px;
         width: 5.5vw;
         height: 5.5vw;
         font-size: 4vw;
         padding: 0.8vw 0 0 1vw;
         border-radius: 100%;
-    }    
+    }
+
     #whatsapp a {
         position: fixed;
         bottom: 2vh;
@@ -756,7 +818,8 @@ footer .copyright {
         margin: 1.8vh 0;
         min-width: 0%;
     }
-    .pro .arrow{
+
+    .pro .arrow {
         width: 35px;
         height: 35px;
         line-height: 35px;
@@ -768,12 +831,15 @@ footer .copyright {
         bottom: 4px;
         right: 8px;
     }
+
     .pro img {
-    border-radius: 1vw;
+        border-radius: 1vw;
     }
+
     .pro .des {
-    padding: 0.9vh 0vw;
+        padding: 0.9vh 0vw;
     }
+
     .pro_container {
         display: grid;
         grid-template-columns: auto auto;
@@ -797,43 +863,52 @@ footer .copyright {
     .section-p1 {
         padding: 7vh 00px;
     }
-    .section-m1{
-        margin:4vh 0vw;
+
+    .section-m1 {
+        margin: 4vh 0vw;
     }
+
     .section-p2 {
         display: flex;
         flex-direction: column;
         margin: 0% 10vw 6vh 10vw;
         justify-content: space-between;
     }
+
     footer .copyright {
         margin-top: 4.5vh;
         width: 100%;
         text-align: center;
     }
-    .developed{
+
+    .developed {
         margin-top: 0vh;
         width: 100%;
     }
-    .developed p{
+
+    .developed p {
         font-size: 3.01vw;
     }
-    footer .follow .fb{
+
+    footer .follow .fb {
         padding-left: 0vw;
         border-radius: 4.5vw 1.7vw 1.7vw 4.5vw;
     }
-    .icon{
+
+    .icon {
         text-align: center;
-    }    
-    footer .follow .ig{
+    }
+
+    footer .follow .ig {
         background-color: #df4c90;
         border-radius: 1.7vw 1.7vw 1.7vw 1.7vw;
     }
-    footer .follow .wa{
+
+    footer .follow .wa {
         background-color: #31b946;
         border-radius: 1.7vw 4.5vw 4.5vw 1.7vw;
     }
-    
+
     #text #text2 {
         padding: 10px;
         padding-left: 80px;
@@ -866,40 +941,49 @@ footer .copyright {
         margin: 0% 0% 0% 0%;
         /* justify-content: space-between; */
     }
+
     #form-details {
         margin: 4.85vh 6.1vw;
         padding: 5.5vh 3vw;
     }
+
     #form-details form {
         padding: 0px;
     }
+
     #form-details p {
         text-align: center;
         font-size: 3.6vw;
     }
-    #form-details h2{
+
+    #form-details h2 {
         font-size: 7.5vw;
         text-align: center;
     }
+
     #form-details form input,
     #form-details form textarea {
         padding: 1.93vh 3.25vw;
         margin-bottom: 4.11vh;
         border-radius: 4px;
     }
+
     .norm {
         font-size: 3.35vw;
         padding: 2.4vh 7.1vw;
     }
+
     #contact-details .details li p {
         font-size: 3.25vw;
     }
+
     #contact-details .banner {
         width: auto;
         height: auto;
         margin-left: 0%;
         margin: 0% 0% 10% 0%;
     }
+
     footer .follow i {
         width: 10.9vw;
         height: 10.9vw;
@@ -907,38 +991,46 @@ footer .copyright {
         border-radius: 2.5vw;
         padding: 3vw 0 0 0vw;
     }
+
     #contact-details .banner img {
         width: 100%;
         height: 510px;
         object-fit: cover;
     }
+
     #contact-details .details {
         width: 80%;
     }
+
     #text .categories {
         margin: 6vh 0px 3vh 0px;
     }
-    #about-head div{
-        padding : 0;
+
+    #about-head div {
+        padding: 0;
     }
-    .category6{
-        grid-template-columns:  auto auto;
+
+    .category6 {
+        grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
-        margin-left:0vw;
+        margin-left: 0vw;
     }
-    .category4{
+
+    .category4 {
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         align-items: center;
     }
-    .category5{
+
+    .category5 {
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         align-items: center;
     }
-    .navigation a{
+
+    .navigation a {
         font-size: 4.1vw;
     }
 }
