@@ -83,7 +83,6 @@ body {
     background: #ffe2cc;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
     z-index: 999;
-    /*fixed header*/
     left: 0;
     top: 0;
 }
